@@ -39,7 +39,7 @@ int main()
 	int a[N], i;
 	for (i = 0; i < N; i++)
 		cin >> a[i];
-	quick_sort(a,,);
+	quick_sort(a,0,9);
 	for (i = 0; i < N; i++)
 		cout << a[i] << ' ' << endl;
 	system("pause");
