@@ -27,11 +27,10 @@ int KthDigit(int n, int k)
 int main()
 {
 	int m, n, k;
-	printf("请输入一个正整数\n");
 	cin >> n;
 	m = CountDigit(n);
 	k = m / 2;
-	printf("%d是一个%d位数，其第%d位数为%d\n", n, m, k, KthDigit(n, k));
+	printf("%d %d %d %d\n", n, m, k, KthDigit(n, k));
 
 	system("pause");
 	return 0;
