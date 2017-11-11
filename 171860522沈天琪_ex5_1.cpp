@@ -20,14 +20,22 @@ int palieshu(int n, int r)
 int main()
 {
 	int n, r;
+<<<<<<< HEAD
 	printf("共有几位数？\n");
 	cin >> n;
 	printf("取出几位数？\n");
+=======
+	cin >> n;
+>>>>>>> 80b902d3373a52242eed3751892f693c45cc9fd5
 	cin >> r;
 	if (n <= 0 || r <= 0 || n < r)
 		printf("不合法输入！\n");
 	else
+<<<<<<< HEAD
 		printf("共有%d种选择\n", palieshu(n, r));
+=======
+		printf("%d\n", palieshu(n, r));
+>>>>>>> 80b902d3373a52242eed3751892f693c45cc9fd5
 
 	system("pause");
 	return 0;
