@@ -8,7 +8,11 @@ int location(char a[])
 {
 	int n = 0;
 	while (a[n] != '.')
+	{
 		n++;
+		if (a[n] == 0)
+			return -1;
+	}
 	return n;
 }
 
@@ -25,9 +29,19 @@ int main()
 		n_dec2 = location(n2);
 		n_len1 = strlen(n1);
 		n_len2 = strlen(n2);
+
+
 		int a = n_len1 - n_dec1;
 		int b = n_len2 - n_dec2;
 		int m = 0;
+		int a_flag = 0, b_flag = 0;
+
+		if (n_dec1 == -1 && n_dec2 == -1)
+			goto L1;
+		else if (n_dec1 == -1)
+			a = 1, a_flag = 1;
+		else if (n_dec2 == -1)
+			b = 1, b_flag = 1;
 
 		while (a > b)
 		{
@@ -43,7 +57,7 @@ int main()
 			n_len2--;
 			b--;
 		}
-		while (a > 2)
+		while (a > 2 || b > 2)
 		{
 			answer_temp[m] = n1[n_len1 - 1] + n2[n_len2 - 1] - '0';
 			if (answer_temp[m] > '9')
@@ -53,17 +67,25 @@ int main()
 			}
 			m++; a--, b--; n_len1--, n_len2--;
 		}
-		answer_temp[m] = n1[n_len1 - 1] + n2[n_len2 - 1] - '0';
-		if (answer_temp[m] > '9')
+
+		if (a == 2 || b == 2)
 		{
-			answer_temp[m] -= 10;
-			n1[n_len1 - 3]++;
+			answer_temp[m] = n1[n_len1 - 1] + n2[n_len2 - 1] - '0';
+			if (answer_temp[m] > '9')
+			{
+				answer_temp[m] -= 10;
+				n1[n_len1 - 3]++;
+			}
+			m++; a--, b--; n_len1--, n_len2--;
 		}
-		m++; a--, b--; n_len1--, n_len2--;
+		else if (a_flag)
+			n_len1++;
+		else if (b_flag)
+			n_len2++;
 		answer_temp[m] = '.';
 		m++; a--, b--; n_len1--, n_len2--;
 
-		int flag = 0;
+	L1: int flag = 0;
 
 		while (n_len1 > 0 && n_len2 > 0)
 		{
@@ -113,7 +135,7 @@ int main()
 		int i = 0, j = strlen(answer_temp);
 		for (i = 0; i < j; i++)
 			answer[i] = answer_temp[j - i - 1];
-		cout << answer;
+		cout << answer << endl;
 	}
 	system("pause");
 	return 0;
