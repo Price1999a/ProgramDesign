@@ -74,9 +74,14 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <SDLCheck>true</SDLCheck>
+      <SDLCheck>false</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>/analyze:stacksize1048576 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
+    <Link>
+      <StackReserveSize>4194304</StackReserveSize>
+      <StackCommitSize>4194304</StackCommitSize>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>

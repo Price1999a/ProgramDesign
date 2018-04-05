@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\</FILEPATH>
+      <FILENAME>shop.cpp</FILENAME>
+      <LINE>38</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “fscanf”。</DESCRIPTION>
+    <FUNCTION>CSoldlist::readsoldlist</FUNCTION>
+    <DECORATED>?readsoldlist@CSoldlist@@QAEXXZ</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\</FILEPATH>
+      <FILENAME>shop.cpp</FILENAME>
+      <LINE>39</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “fscanf”。</DESCRIPTION>
+    <FUNCTION>CSoldlist::readsoldlist</FUNCTION>
+    <DECORATED>?readsoldlist@CSoldlist@@QAEXXZ</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\</FILEPATH>
+      <FILENAME>shop.cpp</FILENAME>
+      <LINE>40</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “fscanf”。</DESCRIPTION>
+    <FUNCTION>CSoldlist::readsoldlist</FUNCTION>
+    <DECORATED>?readsoldlist@CSoldlist@@QAEXXZ</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\</FILEPATH>
+      <FILENAME>shop.cpp</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “fscanf”。</DESCRIPTION>
+    <FUNCTION>CSoldlist::readsoldlist</FUNCTION>
+    <DECORATED>?readsoldlist@CSoldlist@@QAEXXZ</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\</FILEPATH>
+      <FILENAME>shop.cpp</FILENAME>
+      <LINE>42</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “fscanf”。</DESCRIPTION>
+    <FUNCTION>CSoldlist::readsoldlist</FUNCTION>
+    <DECORATED>?readsoldlist@CSoldlist@@QAEXXZ</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\</FILEPATH>
+      <FILENAME>shop.cpp</FILENAME>
+      <LINE>43</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “fscanf”。</DESCRIPTION>
+    <FUNCTION>CSoldlist::readsoldlist</FUNCTION>
+    <DECORATED>?readsoldlist@CSoldlist@@QAEXXZ</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\</FILEPATH>
+      <FILENAME>shop.cpp</FILENAME>
+      <LINE>87</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “fscanf”。</DESCRIPTION>
+    <FUNCTION>CStock::readstockfile</FUNCTION>
+    <DECORATED>?readstockfile@CStock@@QAEXXZ</DECORATED>
+    <FUNCLINE>78</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\</FILEPATH>
+      <FILENAME>shop.cpp</FILENAME>
+      <LINE>88</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “fscanf”。</DESCRIPTION>
+    <FUNCTION>CStock::readstockfile</FUNCTION>
+    <DECORATED>?readstockfile@CStock@@QAEXXZ</DECORATED>
+    <FUNCLINE>78</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\</FILEPATH>
+      <FILENAME>shop.cpp</FILENAME>
+      <LINE>89</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “fscanf”。</DESCRIPTION>
+    <FUNCTION>CStock::readstockfile</FUNCTION>
+    <DECORATED>?readstockfile@CStock@@QAEXXZ</DECORATED>
+    <FUNCLINE>78</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\</FILEPATH>
+      <FILENAME>shop.cpp</FILENAME>
+      <LINE>90</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “fscanf”。</DESCRIPTION>
+    <FUNCTION>CStock::readstockfile</FUNCTION>
+    <DECORATED>?readstockfile@CStock@@QAEXXZ</DECORATED>
+    <FUNCLINE>78</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\</FILEPATH>
+      <FILENAME>shop.cpp</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “fscanf”。</DESCRIPTION>
+    <FUNCTION>CStock::readstockfile</FUNCTION>
+    <DECORATED>?readstockfile@CStock@@QAEXXZ</DECORATED>
+    <FUNCLINE>78</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

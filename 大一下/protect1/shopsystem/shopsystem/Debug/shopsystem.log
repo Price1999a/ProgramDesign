@@ -1,5 +1,8 @@
-﻿  admin.cpp
-  main.cpp
+﻿cl : 命令行 warning D9025: 正在重写“/analyze-”(用“/analyze:stacksize1048576”)
   user.cpp
-  正在生成代码...
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\user.cpp(6): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\user.cpp(12): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: 参见“fscanf”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\user.cpp(12): warning C6031: 返回值被忽略: “fscanf”。
   shopsystem.vcxproj -> C:\Users\10558\Desktop\程序设计基础作业\ProgramDesign\大一下\protect1\shopsystem\Debug\shopsystem.exe
