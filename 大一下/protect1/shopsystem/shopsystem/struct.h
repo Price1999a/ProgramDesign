@@ -2,7 +2,7 @@
 #include <iostream>
 #include <cstdio>
 #include <cstring>
-#include <string>
+//#include <string>
 #include <codecvt>
 using namespace std;
 
@@ -27,7 +27,7 @@ struct Soldlist
 	char uesrname[20];
 };
 
-class CTracker//≤‚ ‘”√
+/*-class CTracker//≤‚ ‘”√
 {
 private:
 	string a1;
@@ -39,4 +39,4 @@ public:
 	~CTracker() {
 		cout << "leave " << a1 << endl;
 	}
-};
+};//*/

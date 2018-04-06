@@ -9,6 +9,7 @@ protected:
 public:
 	CStock() {
 		memset(&stocklist[0], 0, 100 * sizeof(Commodity));//不会被继承
+		readstockfile();
 	}
 	void readstockfile();//读取库存文件初始化CStock类
 	void printadminstocklist();//打印管理员所看到的商品目录（显示为数量为0的商品）
@@ -32,9 +33,11 @@ public:
 	void cleanusershoppingcart() {
 		memset(&stocklist, 0, 100 * sizeof(Commodity));
 	}//清理购物车，用于购买后。
-	void writeinsoldlistfile();//写入已售清单
-	void modifystocklist();//修改库存文件
+	void writeinsoldlistfile(User a);//写入已售清单
+	void modifystocklistfile();//修改库存文件
 	void addshoppingcart();
+	void freshshoppingcart();
+	bool sumprice();//计算总价
 };
 
 class CSoldlist//已售清单 功能：打印已售清单 注：向已售清单中写入一事由购物车类负责，原因在于已售清单文件可以追加方式写入

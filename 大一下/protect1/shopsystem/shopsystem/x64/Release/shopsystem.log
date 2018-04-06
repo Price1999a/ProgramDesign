@@ -1,0 +1,103 @@
+﻿  admin.cpp
+  main.cpp
+  shop.cpp
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(57): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 参见“strcpy”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(58): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 参见“strcpy”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(59): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 参见“strcpy”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(62): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 参见“strcpy”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(31): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(39): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: 参见“fscanf”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(40): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: 参见“fscanf”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(41): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: 参见“fscanf”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(42): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: 参见“fscanf”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(43): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: 参见“fscanf”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(44): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: 参见“fscanf”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(76): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(82): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(88): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: 参见“fscanf”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(89): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: 参见“fscanf”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(90): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: 参见“fscanf”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(91): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: 参见“fscanf”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(92): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: 参见“fscanf”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(185): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 参见“strcpy”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(186): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 参见“strcpy”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(187): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 参见“strcpy”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(183): error C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdlib.h(1334): note: 参见“itoa”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(240): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 参见“strcpy”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(248): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 参见“strcpy”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(315): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(330): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 参见“strcpy”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(331): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(89): note: 参见“strcat”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(332): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(338): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: 参见“fscanf”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(339): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: 参见“fscanf”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(340): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: 参见“fscanf”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(341): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: 参见“fscanf”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(342): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: 参见“fscanf”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(351): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 参见“strcpy”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(352): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(89): note: 参见“strcat”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(353): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(395): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(464): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 参见“strcpy”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(465): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 参见“strcpy”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(466): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 参见“strcpy”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(490): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 参见“strcpy”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\shop.cpp(491): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 参见“strcpy”的声明
+  user.cpp
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\user.cpp(48): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 参见“strcpy”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\user.cpp(68): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\user.cpp(74): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: 参见“fscanf”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\user.cpp(91): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 参见“strcpy”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\user.cpp(104): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 参见“strcpy”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\user.cpp(105): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(89): note: 参见“strcat”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\user.cpp(100): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\user.cpp(106): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 参见“fopen”的声明

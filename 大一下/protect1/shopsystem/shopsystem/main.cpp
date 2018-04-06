@@ -36,7 +36,10 @@ int main()
 				else if (instruction == '6')
 					user.printshoppingcart();
 				else if (instruction == '7')
+				{
 					user.pay();
+					user.userbuild();
+				}
 			}
 		}
 		else if (instruction == '2')
@@ -44,6 +47,7 @@ int main()
 			CUser user;
 			instruction = 0;
 			if (!user.createnewuser())continue;
+			user.userbuild();
 			while (instruction != '1')
 			{
 				user.printusermune();
@@ -60,7 +64,10 @@ int main()
 				else if (instruction == '6')
 					user.printshoppingcart();
 				else if (instruction == '7')
+				{
 					user.pay();
+					user.userbuild();
+				}
 			}
 		}
 		else if (instruction == '3')
@@ -70,8 +77,8 @@ int main()
 			admin.adminbuild();
 			while (instruction != '0')
 			{
-				instruction = getchar();
 				admin.printadminmune();
+				instruction = getchar();
 				instruction = getchar();
 				if (instruction == '1')
 					admin.printadminstock();

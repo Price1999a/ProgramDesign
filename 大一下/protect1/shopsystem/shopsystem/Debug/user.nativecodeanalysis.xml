@@ -4,14 +4,14 @@
     <SFA>
       <FILEPATH>c:\users\10558\desktop\程序设计基础作业\programdesign\大一下\protect1\shopsystem\shopsystem\</FILEPATH>
       <FILENAME>user.cpp</FILENAME>
-      <LINE>12</LINE>
+      <LINE>74</LINE>
       <COLUMN>8</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
     <DESCRIPTION>返回值被忽略: “fscanf”。</DESCRIPTION>
-    <FUNCTION>CUser::usercomfirmation</FUNCTION>
-    <DECORATED>?usercomfirmation@CUser@@QAE_NXZ</DECORATED>
-    <FUNCLINE>3</FUNCLINE>
+    <FUNCTION>CUser::builduserslist</FUNCTION>
+    <DECORATED>?builduserslist@CUser@@QAEXXZ</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
 </DEFECTS>
