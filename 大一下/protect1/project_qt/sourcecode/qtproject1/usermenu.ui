@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>usermenu</class>
+ <widget class="QWidget" name="usermenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>859</width>
+    <height>565</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>用户菜单</string>
+  </property>
+  <widget class="QTableWidget" name="usertable">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>541</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>名称</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>品牌</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>价格</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>数量</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QSplitter" name="splitter">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>60</y>
+     <width>181</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <widget class="QPushButton" name="print_user">
+    <property name="text">
+     <string>查看商品</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="search">
+    <property name="text">
+     <string>商品搜索</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addcart">
+    <property name="text">
+     <string>添加商品至购物车</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="del_cart">
+    <property name="text">
+     <string>删除购物车商品</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="print_cart">
+    <property name="text">
+     <string>查看购物车</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pay">
+    <property name="text">
+     <string>结账</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>print_user</sender>
+   <signal>clicked()</signal>
+   <receiver>usermenu</receiver>
+   <slot>slot_printuser()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>756</x>
+     <y>91</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>845</x>
+     <y>94</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>search</sender>
+   <signal>clicked()</signal>
+   <receiver>usermenu</receiver>
+   <slot>slot_search()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>741</x>
+     <y>174</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>847</x>
+     <y>167</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>addcart</sender>
+   <signal>clicked()</signal>
+   <receiver>usermenu</receiver>
+   <slot>slot_add_cart()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>718</x>
+     <y>247</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>848</x>
+     <y>241</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>del_cart</sender>
+   <signal>clicked()</signal>
+   <receiver>usermenu</receiver>
+   <slot>slot_del_cart()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>745</x>
+     <y>318</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>846</x>
+     <y>314</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>print_cart</sender>
+   <signal>clicked()</signal>
+   <receiver>usermenu</receiver>
+   <slot>slot_print_cart()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>753</x>
+     <y>380</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>846</x>
+     <y>388</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pay</sender>
+   <signal>clicked()</signal>
+   <receiver>usermenu</receiver>
+   <slot>slot_pay()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>739</x>
+     <y>473</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>843</x>
+     <y>471</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>slot_printuser()</slot>
+  <slot>slot_search()</slot>
+  <slot>slot_add_cart()</slot>
+  <slot>slot_del_cart()</slot>
+  <slot>slot_print_cart()</slot>
+  <slot>slot_pay()</slot>
+ </slots>
+</ui>

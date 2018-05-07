@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="outsidespp">
+      <UniqueIdentifier>{5b46ca5b-957d-4bbf-b527-9246e3afbca6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtproject1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="usermenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adminmune.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtproject_login_new.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="input_new.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="admin.cpp">
+      <Filter>outsidespp</Filter>
+    </ClCompile>
+    <ClCompile Include="shop.cpp">
+      <Filter>outsidespp</Filter>
+    </ClCompile>
+    <ClCompile Include="user.cpp">
+      <Filter>outsidespp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qtproject1_main.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_usermenu.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qtproject_login_new.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="admin.h">
+      <Filter>outsidespp</Filter>
+    </ClInclude>
+    <ClInclude Include="shop.h">
+      <Filter>outsidespp</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>outsidespp</Filter>
+    </ClInclude>
+    <ClInclude Include="user.h">
+      <Filter>outsidespp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="qtproject1.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="usermenu.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="adminmune.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="qtproject_login_new.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="input_new.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="qtproject1_main.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="usermenu.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="adminmune.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="qtproject_login_new.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="input_new.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="qtproject1.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="qtproject1.rc" />
+  </ItemGroup>
+</Project>

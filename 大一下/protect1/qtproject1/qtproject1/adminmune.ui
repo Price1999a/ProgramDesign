@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>adminmune</class>
+ <widget class="QWidget" name="adminmune">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>858</width>
+    <height>563</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>管理员菜单</string>
+  </property>
+  <widget class="QTableWidget" name="admintable">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>541</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>名称</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>品牌</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>价格</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>数量</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QSplitter" name="splitter">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>90</y>
+     <width>171</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <widget class="QPushButton" name="print_admin">
+    <property name="text">
+     <string>查询商品</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="add_stock">
+    <property name="text">
+     <string>增加商品</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="del_stock">
+    <property name="text">
+     <string>删除商品</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="modify_stock">
+    <property name="text">
+     <string>修改商品信息</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="print_soldlist">
+    <property name="text">
+     <string>售货清单</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>print_admin</sender>
+   <signal>clicked()</signal>
+   <receiver>adminmune</receiver>
+   <slot>slot_printadmin()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>720</x>
+     <y>115</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>838</x>
+     <y>126</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>add_stock</sender>
+   <signal>clicked()</signal>
+   <receiver>adminmune</receiver>
+   <slot>slot_add_stock()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>748</x>
+     <y>192</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>841</x>
+     <y>198</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>del_stock</sender>
+   <signal>clicked()</signal>
+   <receiver>adminmune</receiver>
+   <slot>slot_del_stock()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>726</x>
+     <y>274</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>843</x>
+     <y>269</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>modify_stock</sender>
+   <signal>clicked()</signal>
+   <receiver>adminmune</receiver>
+   <slot>slot_modify_stock()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>737</x>
+     <y>342</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>844</x>
+     <y>335</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>print_soldlist</sender>
+   <signal>clicked()</signal>
+   <receiver>adminmune</receiver>
+   <slot>slot_printsoldlist()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>725</x>
+     <y>412</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>845</x>
+     <y>411</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>slot_printadmin()</slot>
+  <slot>slot_add_stock()</slot>
+  <slot>slot_del_stock()</slot>
+  <slot>slot_modify_stock()</slot>
+  <slot>slot_printsoldlist()</slot>
+ </slots>
+</ui>
